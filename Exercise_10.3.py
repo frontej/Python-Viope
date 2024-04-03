@@ -4,21 +4,21 @@
 # -*- coding: cp1252 -*-
 #import tarkastaja
 #while True:
-    testattava = input("Anna testattava sana: ")
-    tulos = tarkastaja.testaa(testattava)
-    if tulos == True:
-        print("Antamasi sana kelpaa salasanaksi!")
-        break
-    else:
-        print("Sana ei kelpaa.")
+#testattava = input("Anna testattava sana: ")
+#tulos = tarkastaja.testaa(testattava)
+#if tulos == True:
+#print("Antamasi sana kelpaa salasanaksi!")
+#break
+#else:
+#print("Sana ei kelpaa.")
 
 #Tehtäväsi onkin luoda tähän päämoduuliin sopiva tarkastaja-moduuli. Tee moduuli, jossa on testaa-niminen funktio, joka vastaanottaa syötteen. Jos syöte on alle 5 merkkiä pitkä, sisältää pelkästään kirjaimia tai pelkästään numeroita, palauttaa ohjelma False. Muussa tapauksessa ohjelma palauttaa arvon True. Ohjelma lopetetaan kun käyttäjä antaa ensimmäisen sopivan syötteen. Toimiessaan ohjelma tulostaa seuraavaa:
-Anna testattava sana: Testi
-Sana ei kelpaa.
-Anna testattava sana: 234234
-Sana ei kelpaa.
-Anna testattava sana: Testisana11234
-Antamasi sana kelpaa salasanaksi!
+#Anna testattava sana: Testi
+#Sana ei kelpaa.
+#Anna testattava sana: 234234
+#Sana ei kelpaa.
+#Anna testattava sana: Testisana11234
+#Antamasi sana kelpaa salasanaksi!
 
 #Ohjelman ei tarvitse huomioida erikoismerkkien tilannetta, vaan ainoastaan tarkastaa, että merkkijono on 5 merkkiä tai enemmän, sekä sisältää numeroita ja kirjaimia. Merkkijonotestit .isalpha ja .isdigit ovat tässä tapauksessa hyödyllisiä apuvälineitä.
 #Example output:
