@@ -1,10 +1,10 @@
 #Muodosta lista, jossa on neljä alkioita, joilla on arvot "Sininen", "Punainen", "Keltainen" ja "Vihreä". Tämän jälkeen ota listasta leikkaus jossa on 1. alkio (paikalta 0), sekä tulosta listan kaikki alkiot for-lausetta apuna käyttäen. Toimiessaan ohjelma tulostaa seuraavaa:
 #Listan ensimmäinen alkio on: Sininen
-Lista tulostettuna alkio kerrallaan:
-Sininen
-Punainen
-Keltainen
-Vihreä
+#Lista tulostettuna alkio kerrallaan:
+#Sininen
+#Punainen
+#Keltainen
+#Vihreä
 
 #Example output:
 #Listan ensimmäinen alkio on: Sininen
