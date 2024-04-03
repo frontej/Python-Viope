@@ -10,8 +10,9 @@
 
 #Muista myös laittaa ohjelmaan pääfunktiokutsu
 
-#if __name__ == "__main__":
-    main()
+#if __name__ == "__main__": 
+#main()
+
 #Example output:
 #Anna lukuarvo: 123123
 #Toinen potenssi on 15159273129
