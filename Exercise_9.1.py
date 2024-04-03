@@ -4,9 +4,8 @@
 #Tulostusfunktio!
 
 #Muista myös laittaa ohjelmaan pääfunktiokutsu
-
 #if __name__ == "__main__":
-    main()
+#main()
 
 #Example output:
 #Tulostusfunktio!
