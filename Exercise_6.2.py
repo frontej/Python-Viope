@@ -1,12 +1,9 @@
 #Toinen harjoitustehtävä on jo hieman lähempänä varsinaista ohjelmointia, ja samalla hieman monimutkaisempi. Tehtävässä luodaan kaksi if-else-rakennetta, joista toinen sijoitetaan ensimmäisen sisään tyyliin:
 #if [valinta]:
-	[koodia]
-	if [Valinta]:
-		[koodia]
-	else:
-		[koodia}
-else:
-	[koodia]
+#[koodia]
+#if [Valinta]:[koodia]
+#else:[koodia}
+#else:[koodia]
 #Ohjelmassa käyttäjältä pyydetään nimi ja salasana. Jos nimi on väärin, tulostaa ohjelma "Nimi oli väärin.". Jos nimi on oikein, pyydetään salasanaa. Jos salasana on oikein, tulostetaan "Salasana ja nimi oli oikein!", muussa tapauksessa "Salasana oli väärin.". Toteuta oikeaksi nimi-salasana-pariksi Erkki ja Esimerkki. Ohjelma tulostaa toimiessaan seuraavanlaisia vastauksia:
 
 #Anna nimi: Petteri
