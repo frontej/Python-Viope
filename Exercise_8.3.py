@@ -7,63 +7,30 @@
 #(3) Tyhjentää koko muistikirja
 #Lisäksi lisää valinta (4), joka lopettaa ohjelman. Mikäli käyttäjä valitsee 1, tulostetaan tiedoston sisältö ruudulle, mikäli 2 niin ohjelma kysee "Kirjoita uusi merkintä: " ja tallentaa merkinnän muistioon, lisäten merkinnän loppuun rivinvaihtomerkin "\n" jotta merkinnät pysyvät eri riveillä. Jos käyttäjä valitsee 3 tyhjennetään tiedosto ja tulostetaan näytölle teksti "Muistio tyhjennetty." ja valinnalla 4 ohjelma ilmoittaa "Lopetetaan." ja sammuu. Muilla valinnoilla ohjelma ilmoittaa "Tuntematon valinta.". Toimiessaan ohjelma tulostaa seuraavaa:
 
-(1) Lue muistikirjaa
-(2) Lisää merkintä
-(3) Tyhjennä muistikirja
-(4) Lopeta
-Mitä haluat tehdä?: 2
-Kirjoita uusi merkintä: -Osta maitoa
-(1) Lue muistikirjaa
-(2) Lisää merkintä
-(3) Tyhjennä muistikirja
-(4) Lopeta
-Mitä haluat tehdä?: 1
--Osta maitoa
-(1) Lue muistikirjaa
-(2) Lisää merkintä
-(3) Tyhjennä muistikirja
-(4) Lopeta
-Mitä haluat tehdä?: 4
-Lopetetaan.
+# (1) Lue muistikirjaa
+# (2) Lisää merkintä
+# (3) Tyhjennä muistikirja
+# (4) Lopeta
 
-#Huomaa, että nopein tapa tiedoston tyhjentämiseen on avata se tilaan "w" ja sulkea samantien.
+# Mitä haluat tehdä?: 2
+# Kirjoita uusi merkintä: -Osta maitoa
+# (1) Lue muistikirjaa
+# (2) Lisää merkintä
+# (3) Tyhjennä muistikirja
+# (4) Lopeta
 
-#Example output:
-(1) Lue muistikirjaa
-(2) Lisää merkintä
-(3) Tyhjennä muistikirja
-(4) Lopeta
-Mitä haluat tehdä?: 1
-(1) Lue muistikirjaa
-(2) Lisää merkintä
-(3) Tyhjennä muistikirja
-(4) Lopeta
-Mitä haluat tehdä?: 2
-Kirjoita uusi merkintä: -Osta mehua
-(1) Lue muistikirjaa
-(2) Lisää merkintä
-(3) Tyhjennä muistikirja
-(4) Lopeta
-Mitä haluat tehdä?: 1
--Osta mehua
-(1) Lue muistikirjaa
-(2) Lisää merkintä
-(3) Tyhjennä muistikirja
-(4) Lopeta
-Mitä haluat tehdä?: 3
-Muistio tyhjennetty.
-(1) Lue muistikirjaa
-(2) Lisää merkintä
-(3) Tyhjennä muistikirja
-(4) Lopeta
-Mitä haluat tehdä?: 1
-(1) Lue muistikirjaa
-(2) Lisää merkintä
-(3) Tyhjennä muistikirja
-(4) Lopeta
-Mitä haluat tehdä?: 4
-#Lopetetaan.
+# Mitä haluat tehdä?: 1
+# -Osta maitoa
 
+# (1) Lue muistikirjaa
+# (2) Lisää merkintä
+# (3) Tyhjennä muistikirja
+# (4) Lopeta
+
+# Mitä haluat tehdä?: 4
+# Lopetetaan.
+
+# Huomaa, että nopein tapa tiedoston tyhjentämiseen on avata se tilaan "w" ja sulkea samantien.
 
 while True:
 	print("(1) Lue muistikirjaa\n(2) Lisää merkintä\n(3) Tyhjennä muistikirja\n(4) Lopeta")
