@@ -4,32 +4,32 @@
  
 #Anna ensimmäinen luku: 10
 #Anna toinen luku: 40
-(1) +
-(2) -
-(3) *
-(4) /
-Tee valinta (1-4): 3
-Tulos on: 400
+#(1) +
+#(2) -
+#(3) *
+#(4) /
+#Tee valinta (1-4): 3
+#Tulos on: 400
 #Eli suorittaa halutun laskutoimituksen ja tulostaa vastauksen, tai mikäli valinta on virheellinen niin 
 
 #Anna ensimmäinen luku: 101
 #Anna toinen luku: 11
-(1) +
-(2) -
-(3) *
-(4) /
-Tee valinta (1-4): 100
-Valintaa ei tunnistettu.
+#(1) +
+#(2) -
+#(3) *
+#(4) /
+#Tee valinta (1-4): 100
+#Valintaa ei tunnistettu.
 
 #Example output:
 #Anna ensimmäinen luku: 6
 #Anna toinen luku: 2
-(1) +
-(2) -
-(3) *
-(4) /
-Tee valinta (1-4): 4
-Tulos on: 3.0
+#(1) +
+#(2) -
+#(3) *
+#(4) /
+#Tee valinta (1-4): 4
+#Tulos on: 3.0
 
 eka = input("Anna ensimmäinen luku:")
 toka = input("Anna toinen luku:")
